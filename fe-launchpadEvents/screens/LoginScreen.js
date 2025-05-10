@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import { View, Text, TextInput, Button, StyleSheet } from "react-native";
 
 export default function LoginScreen({ navigation }) {
-  const [username, setUsername] = useState("");
-  const [password, setPassword] = useState("");
+  const [username, setUsername] = useState("Gui");
+  const [password, setPassword] = useState("memo");
 
   const handleLogin = () => {
     // Placeholder for login logic
