@@ -31,7 +31,7 @@ const EventsScreen = () => {
     );
 
     const ticketsRemaining = item.number_of_tickets - item.tickets_bought;
-    const price = item.price || 40; // fallback if price isn't included
+    const price = item.price || 0; // fallback if price isn't included
 
     return (
       <View style={styles.card}>
